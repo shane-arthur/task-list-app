@@ -25,9 +25,11 @@ I time boxed this exercise to 5 hours. In a normal production environment there 
 - Integrate E2E and unit tests.
 - Address accessibility.
 - Polish up the css by using tokens instead of magic strings for padding/margin values.
-- Address responsiveness using a mobile first design
-- Invoke date validation by disabling dates in the past
-- Give the ability to sort tasks by date both ascending and descending
+- Address responsiveness using a mobile first design.
+- Invoke date validation by disabling dates in the past.
+- Give the ability to sort tasks by date both ascending and descending.
+- Have a normalized state vs a flat array/list based state. This will allow for constant time lookups in the reducer actions, vs having to do a O(n) lookup for filtering/searching by id.
+- Add pagination/infinite scrolling on the main list page for when the task list is very large.
 
 ## Design decisions
 - Chose next.js for iteration speed mainly for its out of the box routing using app router.
