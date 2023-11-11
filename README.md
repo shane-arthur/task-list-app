@@ -34,3 +34,4 @@ I time boxed this exercise to 5 hours. In a normal production environment there 
 - Next.js may be a bit overkill here as we don't necessairly need server side rendering or any static generation for this small app.
 - Antd design library was used for creating client side components
 - Adopted a page/container/component architecture where the page calls a container which handles all the redux state integration. The container will pass date down to components which is most cases are mainly controlled components.
+- Redux was used for the purpose of this assignment, with a middleware to persist all the state to localStorage. In reality, this isnt needed. A localStorage hook could simply be used to persist task information, and on load data could be read from there.
