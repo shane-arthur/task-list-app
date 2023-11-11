@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lint-staged": "lint-staged",
-    "type-check": "tsc --project tsconfig.json --pretty --noEmit && echo "
+    "prepare": "husky install" 
   },
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
