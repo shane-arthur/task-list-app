@@ -1,0 +1,24 @@
+.buttonsContainer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+
+    button {
+        transition: 300ms ease-in-out transform;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 24px 48px;
+    }
+
+    button.buttonLarge {
+        margin-right: 148px;
+    }
+
+
+
+    button:hover {
+        transform: scale(1.1);
+    }
+
+}

@@ -1,0 +1,15 @@
+    .form {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 24px;
+        gap: 12px;
+
+        label {
+            width: 200px;
+        }
+
+        .date {
+            width: 100%;
+        }
+    }

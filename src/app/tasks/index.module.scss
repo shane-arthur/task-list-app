@@ -1,0 +1,7 @@
+@import '../tokens.scss';
+
+.tasksPage {
+    width: $app-width;
+    display: flex;
+    justify-content: center;
+}

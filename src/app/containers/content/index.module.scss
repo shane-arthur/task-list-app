@@ -1,0 +1,13 @@
+@import '../../tokens.scss';
+
+.layout {
+    height: inherit;
+    background: inherit;
+
+    .app {
+        max-width: $app-width;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}

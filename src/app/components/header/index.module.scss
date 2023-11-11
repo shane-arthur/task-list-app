@@ -1,0 +1,17 @@
+@import '../../tokens.scss';
+
+.header {
+    height: 10vw;
+    background-color: inherit;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    align-items: center;
+
+    >h1 {
+        color: $color-white;
+        text-align: center;
+    }
+
+}
