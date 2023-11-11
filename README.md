@@ -25,7 +25,12 @@ I time boxed this exercise to 5 hours. In a normal production environment there 
 - Integrate E2E and unit tests.
 - Address accessibility.
 - Polish up the css by using tokens instead of magic strings for padding/margin values.
-- Invoke prettier and linting on commit.
 - Address responsiveness using a mobile first design
 - Invoke date validation by disabling dates in the past
 - Give the ability to sort tasks by date both ascending and descending
+
+## Design decisions
+- Chose next.js for iteration speed mainly for its out of the box routing using app router.
+- Next.js may be a bit overkill here as we don't necessairly need server side rendering or any static generation for this small app.
+- Antd design library was used for creating client side components
+- Adopted a page/container/component architecture where the page calls a container which handles all the redux state integration. The container will pass date down to components which is most cases are mainly controlled components.
